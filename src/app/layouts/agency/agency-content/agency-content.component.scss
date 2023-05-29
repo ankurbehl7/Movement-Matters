@@ -1,0 +1,89 @@
+.about_points li {
+    padding: 10px
+}
+
+.img-fluid {
+    width: 24px;
+}
+
+.letter-space {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #293445;
+    margin-bottom: 20px;
+}
+
+.font-black {
+    font-weight: 300;
+    font-size: calc(20px + 10 * (100vw - 300px) / 1620);
+    line-height: 122%;
+    color: #293445;
+    margin-bottom: 40px;
+}
+
+.p-text {
+    font-size: calc(13px + 2 * (100vw - 300px) / 1620);
+    font-weight: 400;
+    line-height: 166.5%;
+    color: #293445; 
+}
+
+.format {
+    background: #F3F5F9;
+    height: 500px;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.format-container {
+    padding-top: 40%;
+}
+
+.feature-text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 121%;
+    color: #293445;
+}
+
+.service-container {
+    padding-top: 100px;
+}
+
+.service-box {
+    position: absolute;
+}
+
+.service1 {
+    text-align: left;
+    background: #FFF !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 10px !important;
+}
+
+
+.section1 {
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .agency .format-container {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .format .format-head-text .about-font-header {
+        font-size: 32px !important;
+    }
+    .format {
+        background: #F3F5F9;
+        height: 1177px;
+        margin-bottom:0px !important;
+        position: relative;
+    }
+    .service-container {
+        padding-top: 0px !important;
+    }
+}

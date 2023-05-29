@@ -1,0 +1,17 @@
+<!--trainer section start-->
+<section class="gym trainers p-0">
+    <div class="overflow-hide">
+        <div class="row">
+            <div class="col-12">
+                <owl-carousel-o [options]="trainercarouselOptions" class="trainers-slider">
+                    <ng-container *ngFor="let trainer of trainercarousel">
+                        <ng-template carouselSlide class="item">
+                            <img [src]="trainer.img" alt="" class="img-fluid">
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+<!--trainer section end-->

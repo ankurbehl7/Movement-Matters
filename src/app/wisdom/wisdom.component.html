@@ -1,0 +1,114 @@
+<app-agency-nav></app-agency-nav>
+<section class="p-t-150">
+    <section class="breadcrumb-section-main inner-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-contain">
+                        <div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li>
+                                    <a href="#"><i class="fa fa-angle-double-right"></i>Discover</a>
+                                </li>
+                                <li><a href="#" class="active">
+                                        <i class="fa fa-angle-double-right"></i> Wisdom </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!--accordion1 section start-->
+<section class="saas1 faq testimonial-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title2 title-inner m-b-50">
+                    <div class="main-title">
+                        <h3 class="letter-space text-uppercase main-text m-b-5">Articles & Videos </h3>
+                        <h2 class="font-black main-text m-b-0">Wisdom </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="collection-collapse-block top_filter border-1 open">
+                    <h3 class="collapse-block-title">Choose a topic</h3>
+                    <div class="collection-collapse-block-content">
+                        <div class="collection-brand-filter">
+                            <ul class="category-list">
+                                <li><a>Getting started (General)</a></li>
+                                <li class="active"><a >Payment & Subscriptions</a></li>
+                                <li><a>Corporate Organisations </a></li>
+                                <li><a>Group & Individuals</a></li>
+                                <li><a>Price & Discounts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-collapse-block top_filter border-1 open">
+                    <h3 class="collapse-block-title">Choose a topic</h3>
+                    <div class="collection-collapse-block-content">
+                        <div class="collection-brand-filter">
+                            <ul class="category-list">
+                                <li><a>Getting started (General)</a></li>
+                                <li class="active"><a >Payment & Subscriptions</a></li>
+                                <li><a>Corporate Organisations </a></li>
+                                <li><a>Group & Individuals</a></li>
+                                <li><a>Price & Discounts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center font-black p-10 m-t-20">
+                    Have more questions?
+                    <a routerLink="/contact-us" class="font-primary">Contact Us</a>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <div class="faq-block">
+                    <div class="w-100">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6 agency blog m-b-20" *ngFor="let blog of blogs">
+                                    <div class="blog-agency">
+                                        <div class="blog-contain">
+                                            <img [src]="blog.img" alt="" class="img-fluid">
+                                            <div class="img-container center-content">
+                                                <div class="center-content">
+                                                    <div class="blog-info">
+                                                        <div class="m-b-10">
+                                                            <div class="center-text">
+                                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                                <h6 class="m-r-25 font-blog">{{blog.date}}</h6>
+                                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                                <h6 class="font-blog">{{blog.type}}</h6>
+                                                            </div>
+                                                        </div>
+                                                        <h5 class="blog-head">{{blog.title}}</h5>
+                                                        <p class="para2">{{blog.description}}</p>
+                                                        <div class="m-t-20"><a href="javascript:void(0)"
+                                                                class="text-uppercase">{{blog.btn}}</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--accordion1 section end-->
+
+<app-agency-footer></app-agency-footer>
+<app-agency-copyright></app-agency-copyright>

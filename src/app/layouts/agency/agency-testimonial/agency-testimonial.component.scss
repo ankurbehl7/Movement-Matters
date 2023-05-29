@@ -1,0 +1,32 @@
+.p-t-150 {
+  padding-top: 110px !important;
+}
+
+.letter-space {
+  letter-spacing: 3px;
+}
+
+.font-black {
+  color: black;
+  font-weight: 400;
+}
+
+.agency-new-box {
+  padding: 30px;
+}
+
+.trusted {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 123.5%;
+  text-align: center;
+  color: #293445;
+  margin: 100px 0 0 0;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .title-inner {
+      margin-top: -30px !important;
+  }
+}

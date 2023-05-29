@@ -1,0 +1,63 @@
+.service-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #293445;
+    margin-bottom: 20px;
+}
+
+.service-heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 122%;
+    color: #293445;
+}
+
+.agency .icon-collection .about-icon {
+    margin-bottom: 30px !important;
+}
+
+.about-icon {
+    padding: 10px 32px !important;
+    background: #F3F5F9;
+    border-radius: 10px;
+}
+
+.list-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 166.5%;
+    align-items: center;
+    color: #293445;
+    padding-bottom: 10px;
+}
+
+.list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    align-items: center;
+    color: #293445;
+}
+
+.service-drop {
+    border-radius: 25px 0 0 25px;
+    background-color: #fafafb;
+    border: solid #209ba5;
+    color: #0e0e0e;
+    width: 270px;
+    height: 57px;
+    padding:0 15px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .saas1.subscribe .subscribe-input {
+        margin-bottom: 20px;
+    }
+
+    .agency.service-bg {
+        padding-top: 50px;
+    }
+}

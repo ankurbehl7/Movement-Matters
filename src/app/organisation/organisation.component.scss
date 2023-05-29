@@ -1,0 +1,145 @@
+.p-t-150 {
+    padding-top: 110px !important;
+}
+
+.letter-space {
+    letter-spacing: 3px;
+}
+
+.font-black {
+    color: black;
+    font-weight: 400;
+}
+
+// .img-fluid {
+//     padding: 60px;
+// }
+
+.font-primary {
+    font-weight: 600 !important;
+}
+
+.contact-info {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f0feff;
+}
+
+.contact-form {
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px silver;
+}
+
+.contact-icon {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-text h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 74px;
+    color: #293445;
+
+}
+
+.header-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #293445;
+    padding-top: 40px;
+}
+
+.primary-btn {
+    margin-right: 10px;
+}
+
+.title-inner .main-title h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #293445;
+}
+
+.title-inner .main-title h6 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    color: #293445;
+}
+
+.title-inner .main-title h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 122%;
+    color: #293445;
+    padding: 30px 0;
+
+}
+
+.title-inner .main-title p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 166.5%;
+    color: #293445;
+}
+
+.title-inner .main-title h4 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 123.5%;
+    text-align: center;
+    color: #293445;
+    padding: 20px 0 30px 0;
+}
+
+.section1 {
+    padding: 0 !important;
+}
+
+.service1 {
+    background: #F3F5F9;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.primary-btn {
+    background: #68B0AB;
+    border-radius: 100px;
+}
+
+.program-img img {
+    border-radius: 10px;
+}
+.sub-title p{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 122%;
+    color: #FFFFFF;
+    text-align: left !important;
+}
+.main-title .text-capitalize {
+    text-align: left !important;
+}
+.btn-individual{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black !important;
+    border-radius: 100px;
+    margin-right: 10px;
+    padding: 14px 35px;
+}
+
+@media only screen and (max-width: 575px) {
+    .main-title .text-capitalize {
+        text-align: center !important;
+    }
+    .sub-title p{
+        text-align: center !important;
+    }
+    .primary-btn {
+        margin-bottom: 10px;
+    }
+}

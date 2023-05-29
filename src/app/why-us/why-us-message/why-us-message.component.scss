@@ -1,0 +1,96 @@
+.mission {
+    background-color: #FAF3DD;
+    text-align: left !important;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.vission {
+    background-color: #C8D5B9;
+    text-align: left !important;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.mission-img,
+.vission-img {
+    width: 100px;
+}
+
+.mission-img img,
+.vission-img img {
+    border-radius: 50%;
+}
+
+.mission-text h2,
+.vission-text h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 58px;
+    color: #293445;
+    padding-top: 20px;
+}
+
+.mission-text p,
+.vission-text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #293445;
+    padding-top: 20px;
+}
+
+.achieve-row {
+    background-color: #F3F5F9;
+    text-align: left !important;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.achieve-heading h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #293445;
+}
+
+.achieve-sec-text h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #293445;
+    padding-top: 40px;
+}
+
+.achieve-sec-text h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #293445;
+    padding-top: 20px;
+}
+
+.achieve-sec-text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8D8D8D;
+    padding-top: 10px;
+}
+
+.achieve {
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .achieve-row {
+        padding: 50px 20px;
+    }
+    
+    .achieve-heading h2 {
+        font-size: 44px;
+    }
+    .mis-sec, .vis-sec {
+        margin-bottom: 30px;
+    }
+}

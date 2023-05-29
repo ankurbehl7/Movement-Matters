@@ -1,0 +1,19 @@
+.sub-title p{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 122%;
+    color: #FFFFFF;
+    text-align: left !important;
+}
+.main-title .text-capitalize {
+    text-align: left !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .main-title .text-capitalize {
+        text-align: center !important;
+    }
+    .sub-title p{
+        text-align: center !important;
+    }
+  }

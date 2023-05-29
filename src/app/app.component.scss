@@ -1,0 +1,47 @@
+.theme-pannel-main {
+//   position: fixed;
+//   // bottom: 20%;
+  top: 70%;
+//   right: 0;
+//  // left: 0;
+//   z-index: 9;
+
+height: 0;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    z-index: 99;
+    text-align: center;
+    border-radius: 5%;
+   // font-size: 52px;
+    cursor: pointer;
+    line-height: 2.2;
+  }
+
+// .theme-pannel-main ul li {
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+// }
+
+// .theme-pannel-main ul li span {
+//   padding: 0;
+//   text-transform: uppercase;
+//  // color: #949494;
+//   font-weight: 700;
+// }
+
+.theme-pannel-main ul li a {
+  //background-image: linear-gradient(#fff,#49c456);
+  background-color: #49c456;
+  color: #fff;
+  padding: 0px 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 7px 1px rgba(158, 158, 158, 0.2);
+  box-shadow: 0 0 7px 1px rgba(158, 158, 158, 0.2);
+  font-size: 30px;
+}
+
+// .theme-pannel-main ul li:last-child {
+//   border-bottom: 0;
+// }

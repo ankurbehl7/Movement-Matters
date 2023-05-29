@@ -1,0 +1,38 @@
+.text-black {
+    color: black;
+}
+
+.header-text h1 {
+    font-weight: 700 !important;
+    font-size: 48px;
+    line-height: 60px;
+    color: #293445;
+
+}
+
+.header-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #293445;
+    padding-top: 40px;
+}
+
+.btn-default {
+    border-radius: 100px;
+}
+
+.primary-btn {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+    section {
+        // padding: 144px 0 50px 0;
+        padding: 50px 0;
+    }
+
+    .primary-btn {
+        margin-bottom: 10px;
+    }
+}

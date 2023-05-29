@@ -1,0 +1,15 @@
+@import 'theme/variable' ;
+$primary: #165f65;
+$secondary: #464545;
+$pink-light: #FCE1EE;
+$dark:#165f65;
+$dark-light:#f0feff;
+$dark1:#165f65;
+$light1: #E686B5;
+$light: #d33681;
+@import 'theme/style';
+@import 'theme/responsive';
+@import 'theme/customize';
+@import 'theme/nav';
+@import 'theme/theme-dark';
+@import 'theme/theme-rtl';

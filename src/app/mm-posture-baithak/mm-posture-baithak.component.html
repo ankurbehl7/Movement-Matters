@@ -1,0 +1,281 @@
+<app-agency-nav></app-agency-nav>
+<section class="p-t-150">
+    <section class="breadcrumb-section-main inner-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-contain">
+                        <div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#" class="active">
+                                        <i class="fa fa-angle-double-right"></i> Organisations</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<!--header start-->
+<section class="agency header" id="header">
+    <div class="agency">
+        <!-- <div class="agency bg"> -->
+        <div class="row">
+            <div class="col-md-5 offset-md-1">
+                <div class="center-text">
+                    <div>
+                        <div class="header-text">
+                            <h1 class="text-black"><span class="bold-text">Posture Baithak.</span> </h1>
+                        </div>
+                        <div class="header-sub-text">
+                            <p>We help teams and organisations to become <br />
+                                congruent to their thoughts and actions by <br />
+                                increasing empathy and productivity
+                            </p>
+                        </div>
+                        <div class="link-horizontal">
+                            <ul>
+                                <li>
+                                    <a class=" btn btn-default primary-btn text-white">Request a demo</a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default btn-white ">Watch Video</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/agency/slider/individual_img1.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!--header end-->
+<app-mm-clients></app-mm-clients>
+<section class="agency format service-bg p-10" style="background-color: rgb(250, 247, 241); height: 300px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="center-text">
+                    <div class="format-container">
+                        <div class="format-head-text">
+                            <h2 class="about-font-header">With <span class="block-span"
+                                    style="color: rgb(223, 99, 59);">Work Beyond Stress
+                                </span>you can</h2>
+                        </div>
+                        <div class="format-sub-text">
+                            <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="app2 services">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 service-container">
+                            <div class="service" style="background-color: white;">
+                                <div class="service-feature">
+                                    <h4 class="feature-text">Benifits for Organization</h4>
+                                    <p>Unlike team chat apps, Flow is designed to help your team stay focused by
+                                        keeping relevant and actionable Flow is designed to help your team stay focused
+                                        by keeping relevant and actionable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 service-container">
+                            <div class="service" style="background-color: white;">
+                                <div class="service-feature">
+                                    <h4 class="feature-text">Benifits for Individuals </h4>
+                                    <p>Unlike team chat apps, Flow is designed to help your team stay focused by
+                                        keeping relevant and actionable Flow is designed to help your team stay focused
+                                        by keeping relevant and actionable.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="event portfolio-section zoom-gallery set-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 filter-section">
+                <div class="filter-container isotopeFilters">
+                    <ul class="list-inline filter">
+                        <li [ngClass]="{active : activeFilter == 'programOverview'}"><a href="javascript:void(0)"
+                                (click)="filterImg('programOverview')"
+                                data-filter=".programOverview">Program Overview</a></li>
+                        <li [ngClass]="{active : activeFilter == 'programBenefits'}"><a
+                                href="javascript:void(0)" (click)="filterImg('programBenefits')"
+                                data-filter=".programBenefits">Program Benefits</a></li>
+                        <li [ngClass]="{active : activeFilter== 'learningObjectives'}"><a href="javascript:void(0)"
+                                (click)="filterImg('learningObjectives')" data-filter=".learningObjectives">Learning Objectives</a></li>
+                        <li [ngClass]="{active : activeFilter== 'testimonials'}"><a href="javascript:void(0)"
+                                (click)="filterImg('testimonials')" data-filter=".testimonials">Testimonials</a></li>
+                    </ul>
+                </div>D
+            </div>
+        </div>
+
+        <div *ngIf="activeFilter == 'programOverview'">
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+
+                    <div>
+                        <div class="header-sub-text m-b-30">
+                            <p>We help teams and organisations to become
+                                congruent to their thoughts and actions by
+                                increasing empathy and productivity.
+                                We help teams and organisations to become
+                                congruent to their thoughts and actions by
+                                increasing empathy and productivity.
+                                We help teams and organisations to become
+                                congruent to their thoughts and actions by
+                                increasing empathy and productivity.
+                            </p>
+                        </div>
+
+                        <div class="link-horizontal">
+                            <ul>
+                                <li>
+                                    <a class=" btn btn-default primary-btn radius-0 text-white">Request a demo</a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default radius-0 btn-white ">Watch Video</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="../../assets/images/agency/slider/org_img.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div *ngIf="activeFilter == 'programBenefits'">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../../assets/images/agency/slider/org_img.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-5 offset-md-1">
+
+                    <div>
+                        <div class="header-sub-text m-b-30">
+                            <p>We help teams and organisations to become <br />
+                                congruent to their thoughts and actions by <br />
+                                increasing empathy and productivity
+                            </p>
+                        </div>
+
+                        <div class="link-horizontal">
+                            <ul>
+                                <li>
+                                    <a class=" btn btn-default primary-btn radius-0 text-white">Request a demo</a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default radius-0 btn-white ">Watch Video</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="activeFilter == 'learningObjectives'">
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+                    <div class="header-sub-text m-b-30">
+                        <p class="text-justify"> We help teams and organisations to become
+                            congruent to their thoughts and actions by
+                            increasing empathy and productivity.
+                            We help teams and organisations to become
+                            congruent to their thoughts and actions by
+                            increasing empathy and productivity
+                            <br />We help teams and organisations to become
+                            congruent to their thoughts and actions by
+                            increasing empathy and productivity
+                            We help teams and organisations to become
+                            congruent to their thoughts and actions by
+                            increasing empathy and productivity
+                        </p>
+                    </div>
+
+                    <div class="link-horizontal">
+                        <ul>
+                            <li>
+                                <a class=" btn btn-default primary-btn radius-0 text-white">Request a demo</a>
+                            </li>
+                            <li>
+                                <a class="btn btn-default radius-0 btn-white ">Watch Video</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="../../assets/images/agency/slider/org_img.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div *ngIf="activeFilter == 'testimonials'">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../../assets/images/agency/slider/org_img.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-5 offset-md-1">
+
+                    <div>
+                        <div class="header-sub-text m-b-30">
+                            <p>We help teams and organisations to become <br />
+                                congruent to their thoughts and actions by <br />
+                                increasing empathy and productivity
+                            </p>
+                        </div>
+
+                        <div class="link-horizontal">
+                            <ul>
+                                <li>
+                                    <a class=" btn btn-default primary-btn radius-0 text-white">Request a demo</a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default radius-0 btn-white ">Watch Video</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="saas1 faq testimonial-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="title2 title-inner">
+                    <div class="main-title">
+                        <h3 class="letter-space text-uppercase main-text m-b-5">Our Experts </h3>
+                        <h2 class="font-black main-text m-b-0">Meet Our Facilitators </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<app-mm-facilitators></app-mm-facilitators>
+<app-mm-calender></app-mm-calender>
+<app-agency-footer></app-agency-footer>
+<app-agency-copyright></app-agency-copyright>

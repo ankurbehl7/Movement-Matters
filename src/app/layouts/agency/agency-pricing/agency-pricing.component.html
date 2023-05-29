@@ -1,0 +1,27 @@
+
+
+<!-- price-plan Start-->
+<section class="agency pricing price-bg" id="plan" [ngStyle]="{'background-image': 'url(assets/images/agency/price/bg.png)'}">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <owl-carousel-o [options]="pricingcarouselOptions" class="pricing-slider price-margin">
+                    <ng-container *ngFor="let price of pricing">
+                        <ng-template carouselSlide class="item">
+                            <div class="price-container shadows">
+                                <div class="price-feature-container">
+                                    <div class="feature-text">
+                                        <img [src]="price.img" alt="" class="img-fluid">
+                                        <!-- <span class="flaticon-{{price.icon}} feature-icon"></span> -->
+                                        <h3>{{price.package}}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- price-plan end-->

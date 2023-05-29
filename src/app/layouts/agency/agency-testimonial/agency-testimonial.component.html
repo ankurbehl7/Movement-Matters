@@ -1,0 +1,49 @@
+<!-- testimonial section start-->
+<div style="background-color: #faf3dd;"> 
+<div class="saas1 faq testimonial-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title2 title-inner text-center m-t-30">
+                    <div class="main-title">
+                        <h2 class="font-black main-text trusted m-b-0">Trusted by 1000+ customers  </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="app2 team">
+    <div class="container">
+        <div class="row">
+           <!-- <div class="col-12">
+                <div class="title title2 title-inner">
+                    <div class="main-title">
+                        <h2 class="font-primary borders text-center text-uppercase m-b-0"><span class="">Trusted by
+                                1000+
+                                customers</span>
+                        </h2>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-12">
+                <owl-carousel-o [options]="testimonialCarouselOptions" class="team-slider">
+                    <ng-container *ngFor="let team of users">
+                        <ng-template carouselSlide class="item">
+                            <div class="team-container">
+                                <img [src]="team.img" alt="" class="img-fluid members">
+                                <div class="text-center">
+                                    <h5 class="name text-center">{{team.name}}</h5>
+                                    <h6 class="post text-center ">{{team.designation}}</h6>
+                                    <p class="team-para text-center">{{team.review}}</p>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!-- testimonial section end-->

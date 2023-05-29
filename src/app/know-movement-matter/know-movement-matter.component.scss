@@ -1,0 +1,255 @@
+.font-primary {
+    font-weight: 600 !important;
+}
+
+.p-t-150 {
+    padding-top: 110px !important;
+}
+
+.agency h1 span.bold-text {
+    font-weight: 800;
+}
+
+.header-text h1 {
+    font-size: 48px;
+    line-height: 74px;
+    color: #000000;
+}
+
+.header-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #293445;
+    padding-top: 40px;
+}
+
+.primary-btn {
+    margin-right: 10px;
+}
+
+
+// .program {
+//     padding: 0 !important;
+// }
+
+.program-info {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f0feff;
+}
+
+.program-form {
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px silver;
+}
+
+.program-icon {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.sub-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.5%;
+    color: #293445;
+}
+
+.main-title .text-capitalize {
+    text-align: left !important;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 49px;
+    color: #293445;
+
+}
+
+.main-title h6 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 122%;
+    color: #293445;
+    padding: 20px 0 30px 0;
+}
+
+.program-container1 {
+    background: #F3F5F9;
+    border-radius: 15px;
+    padding: 50px 30px;
+}
+
+.program-text h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #293445;
+}
+
+.program-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #293445;
+}
+
+.program-img {
+    margin-bottom: 20px;
+}
+
+.service-bg {
+    background: #8FC0A9 !important;
+}
+
+.section1 {
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+
+.format {
+    background: #F3F5F9;
+    height: 500px;
+    margin-bottom: 170px;
+    position: relative;
+}
+
+.format .format-head-text .about-font-header {
+    color: #fff !important;
+}
+
+.format .format-head-text .about-para {
+    color: #fff !important;
+}
+
+.format-container {
+    padding-top: 40%;
+}
+
+.feature-text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 121%;
+    color: #293445;
+}
+
+.service-container {
+    padding-top: 100px;
+}
+
+.service-box {
+    position: absolute;
+}
+
+.service1 {
+    text-align: left;
+    background: #FFF !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 10px !important;
+}
+
+
+.section1 {
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+.letter-space {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #293445;
+    margin-bottom: 20px;
+}
+
+.font-black {
+    font-weight: 300;
+    font-size: calc(20px + 10 * (100vw - 300px) / 1620);
+    line-height: 122%;
+    color: #293445;
+    margin-bottom: 40px;
+}
+
+.p-text {
+    font-size: calc(13px + 2 * (100vw - 300px) / 1620);
+    font-weight: 400;
+    line-height: 166.5%;
+    color: #293445;
+}
+
+.img-fluid1 {
+    width: 24px;
+}
+
+.about_points li {
+    padding: 10px;
+}
+
+.learning {
+    margin: 30px 0 60px 0 !important;
+}
+
+.learning-row h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #293445;
+}
+
+.learning-row p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 123.5%;
+    text-align: center;
+    color: #293445;
+    padding: 20px 0 30px 0;
+}
+
+.learning-img,
+.learning-accordion {
+    margin: 30px 0 0 0;
+}
+
+.learning-img img {
+    border-radius: 20px;
+}
+
+.accordion-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 122%;
+    color: #293445;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .agency .format-container {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .format .format-head-text .about-font-header {
+        font-size: 32px !important;
+        color: #fff !important;
+    }
+
+    .format {
+        background: #F3F5F9;
+        height: 1177px;
+        margin-bottom: 0px !important;
+        position: relative;
+    }
+
+    .service-container {
+        padding-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .primary-btn {
+        margin-bottom: 10px;
+    }
+}
